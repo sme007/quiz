@@ -1,0 +1,143 @@
+body{
+    background: #007bff;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 350px;
+    background: #f1f1f1;
+    padding: 10px 40px 40px 40px;
+    border-radius: 5px;
+    /* display: none; */
+
+}
+/* #test {
+} */
+
+#test_status{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+input {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#button-section {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 20px;
+    
+}
+#start-quiz {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: 500;
+    color: #007bff;
+    padding: 15px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #f1f1f1;
+    box-shadow: 0px 4px 8px 0 rgb(0,0,0,0.2),
+                0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+#btn2{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #007bff;
+    background: transparent !important;
+    color: #007bff;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#btnSubmit{
+    margin-top: 20px;
+    /* margin: 0 5px; */
+    height: 40px;
+    width: 150px;
+    background: #007bff;
+    color: #f1f1f1;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#display-status {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px solid #ccc;
+}
+#timer {
+    width: 100px;
+    margin-top: 20px;
+    border: 1px solid #007bff;
+    padding: 7px;
+    border-radius: 5px;
+}
+#timer span {
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+
+/* Responsive code */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        font-size: 20px;
+    
+    }
+    #test{
+        padding: 10px 20px;
+    }
+    hr{
+        width: 100%;
+    }
+    #button-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        
+    }
+    #btn2{
+        margin: 0 5px;
+        height: 50px;
+        width: 130px;
+        font-size: 18px;
+    }
+    #btnSubmit{
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    
+}
+
